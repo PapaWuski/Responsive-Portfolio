@@ -143,10 +143,6 @@ body{
     margin: 1.3em;
 }
 
-.profile a{
-    text-decoration: none;
-}
-
 .project:hover img{
     opacity: .1;
 }
@@ -192,3 +188,49 @@ body{
     width: 100%;
     border: 1px solid #E8DDCB;
 }
+
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #333;
+    }
+    nav{
+        clear: both;
+        height: 6em;
+    }
+    .navTitle h1{
+        clear:both;
+        left:unset;
+        bottom: unset;
+        top:.1em;
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navLinks{
+        clear:both;
+        right:unset;
+        bottom: 0;
+        width:100%;
+        text-align: center;
+    }
+    .navLinks .link{
+        float:none;
+        right:unset;
+        bottom: 0;
+        width:100%;
+    }
+    /* The wrapper's width will be 600px */
+    .content {
+      width: 100%;
+      margin: 5em 0;
+    }
+    .profile{
+        clear:both;
+        width:100%;
+        margin: 1em 0;
+    }
+    .content p{
+        clear:both;
+    }
+  }
