@@ -189,7 +189,21 @@ body{
     border: 1px solid #E8DDCB;
 }
 
+@media screen and (max-width: 980px) {
+    .content {
+      width: 80%;
+      margin: 5em auto;
+    }
+  }
+
 @media screen and (max-width: 768px) {
+    .content {
+      width: 90%;
+      margin: 5em auto;
+    }
+  }
+
+@media screen and (max-width: 640px) {
     /* The body's bg color will be #333 */
     body {
       background-color: #333;
